@@ -4,11 +4,6 @@ env:
   CLUSTER_NAME: infra-ops
   GCP_REGION: africa-south1
   GCP_ZONE: africa-south1-a
-  # Set default gum style options
-  BORDER: double
-  BORDER_FOREGROUND: "212"
-  PADDING: "1 1"
-  MARGIN: "1 1"
 
 tasks:
   gcp:01-init-cli:
