@@ -1,6 +1,6 @@
 {
   "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
-  "packages": ["go-task@latest"],
+  "packages": ["go-task@latest", "go@latest", "kubectl@latest", "kind@latest", "kubectx@latest"],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
