@@ -1,11 +1,13 @@
 version: "3"
 
+# Global environment variables used across tasks
 env:
   CLUSTER_NAME: infra-ops
   GCP_REGION: africa-south1
   GCP_ZONE: africa-south1-a
 
 tasks:
+  # --- Google Cloud CLI ---
   gcp:01-init-cli:
     cmds:
       - gcloud init
@@ -80,6 +82,8 @@ tasks:
       - gcloud container clusters get-credentials ${CLUSTER_NAME} --zone ${GCP_ZONE}
     desc: "Connect to the GKE cluster"
 
+
+  # --- KIND (Kubernetes in Docker) Section ---
   kind:01-generate-config:
     cmds:
       - REPLACE_WITH_ABSOLUTE_PATH=${PWD} envsubst < kind-config.yaml.TEMPLATE > kind-config.yaml
