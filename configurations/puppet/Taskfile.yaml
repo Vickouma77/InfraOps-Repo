@@ -1,0 +1,7 @@
+# version: "3"
+
+# tasks:
+#   l:
+#     desc: "Run Puppet Lint"
+#     cmds:
+#       - "puppet-lint --no-80chars-check --no-documentation-check --no-variable_scope-check"
