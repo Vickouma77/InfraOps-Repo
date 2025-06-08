@@ -376,6 +376,54 @@
           "store_path": "/nix/store/splc1jyikq2pg4w76d6i8ymyd0rqlai5-kubent-0.7.3"
         }
       }
+    },
+    "puppet-lint@latest": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#puppet-lint",
+      "source": "devbox-search",
+      "version": "4.2.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wnbi3l7ic4qwhbc8lk1m2m5hbflpvv6r-puppet-lint-4.2.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wnbi3l7ic4qwhbc8lk1m2m5hbflpvv6r-puppet-lint-4.2.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/97w9h44bmsq4nf1djblh7q4npk1y583b-puppet-lint-4.2.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/97w9h44bmsq4nf1djblh7q4npk1y583b-puppet-lint-4.2.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/49srq92z22nd3vgx52zsjrwj68z549lm-puppet-lint-4.2.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/49srq92z22nd3vgx52zsjrwj68z549lm-puppet-lint-4.2.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g5j61sc293v33hg27gqan0ndaf6pg6hc-puppet-lint-4.2.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g5j61sc293v33hg27gqan0ndaf6pg6hc-puppet-lint-4.2.4"
+        }
+      }
     }
   }
 }
