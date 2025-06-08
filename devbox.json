@@ -8,7 +8,9 @@
     "kind@latest", 
     "kubectx@latest",
     "kubent@latest",
-    "puppet-lint@latest"
+    "puppet@latest",
+    "puppet-lint@latest",
+    "ruby@latest"
   ],
   "shell": {
     "init_hook": [
