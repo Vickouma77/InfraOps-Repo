@@ -20,4 +20,4 @@
 ### Getting Started with Kubernetes
 ```Kubernetes``` is an open-source platform designed to automate deploying, scaling, and operating application containers. It provides a framework to run distributed systems resiliently, with features like load balancing, self-healing, and rolling updates.
 
-Read more about Kubernetes [here]([text](https://github.com/Vickouma77/InfraOps-Repo/tree/main/kubernetes)).  
+Read more about Kubernetes [here](https://github.com/Vickouma77/InfraOps-Repo/tree/main/kubernetes).  
