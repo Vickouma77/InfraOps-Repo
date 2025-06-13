@@ -16,3 +16,8 @@
 - **Environment Management**: Manage multiple environments (e.g., development, staging, production) using branches or directories in the Git repository.
 - **Security**: Use Git's access control features to manage permissions and ensure that only authorized users can make changes.
 - **Continuous Reconciliation**: Continuously monitor the live state of the infrastructure and applications, automatically reconciling any drift from the desired state in Git.
+
+### Getting Started with Kubernetes
+```Kubernetes``` is an open-source platform designed to automate deploying, scaling, and operating application containers. It provides a framework to run distributed systems resiliently, with features like load balancing, self-healing, and rolling updates.
+
+Read more about Kubernetes [here]([text](https://github.com/Vickouma77/InfraOps-Repo/tree/main/kubernetes)).  
