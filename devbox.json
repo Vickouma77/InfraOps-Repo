@@ -1,16 +1,17 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
   "packages": [
-    "go-task@latest", 
+    "go-task@latest",
     "go@latest",
     "gum@latest",
-    "kubectl@latest", 
-    "kind@latest", 
+    "kubectl@latest",
+    "kind@latest",
     "kubectx@latest",
     "kubent@latest",
     "puppet@latest",
     "puppet-lint@latest",
-    "ruby@latest"
+    "ruby@latest",
+    "python3@latest"
   ],
   "shell": {
     "init_hook": [
