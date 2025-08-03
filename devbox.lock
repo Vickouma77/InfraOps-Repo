@@ -377,6 +377,154 @@
         }
       }
     },
+    "libmysqlclient@latest": {
+      "last_modified": "2025-07-13T22:45:35Z",
+      "resolved": "github:NixOS/nixpkgs/a421ac6595024edcfbb1ef950a3712b89161c359#libmysqlclient",
+      "source": "devbox-search",
+      "version": "3.3.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3zddjxm0mg7lb359x66j2iliiq2rg3ry-mariadb-connector-c-3.3.5",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/4xfy4nh7gaxf9lj44d1hc67f0xij6vap-mariadb-connector-c-3.3.5-dev"
+            }
+          ],
+          "store_path": "/nix/store/3zddjxm0mg7lb359x66j2iliiq2rg3ry-mariadb-connector-c-3.3.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/52gl940x5w6hgnpa781zlqpmwxykrvjq-mariadb-connector-c-3.3.5",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/9qkj54bbd2s15j0zp20484585pb75x9w-mariadb-connector-c-3.3.5-dev"
+            }
+          ],
+          "store_path": "/nix/store/52gl940x5w6hgnpa781zlqpmwxykrvjq-mariadb-connector-c-3.3.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/clmp65zkmcdph4gwilwy0k6nw3ykaz4z-mariadb-connector-c-3.3.5",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/0znmjhj99qp3y49jdv1k9wyzkjnlkzyd-mariadb-connector-c-3.3.5-dev"
+            }
+          ],
+          "store_path": "/nix/store/clmp65zkmcdph4gwilwy0k6nw3ykaz4z-mariadb-connector-c-3.3.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bwg66qjrw7kx8lsz0w4irwm5d3dscpzs-mariadb-connector-c-3.3.5",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/iqgk2srbr423spb8nd06p8lp7kpqip54-mariadb-connector-c-3.3.5-dev"
+            }
+          ],
+          "store_path": "/nix/store/bwg66qjrw7kx8lsz0w4irwm5d3dscpzs-mariadb-connector-c-3.3.5"
+        }
+      }
+    },
+    "pkg-config@latest": {
+      "last_modified": "2025-07-13T22:45:35Z",
+      "resolved": "github:NixOS/nixpkgs/a421ac6595024edcfbb1ef950a3712b89161c359#pkg-config",
+      "source": "devbox-search",
+      "version": "0.29.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ln3ag9li111lb1z3d5kx85lmbwl02jxl-pkg-config-wrapper-0.29.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/mzinwf7wbz9bjpabxlf282jz063cqm0a-pkg-config-wrapper-0.29.2-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/sjzdp47pc9islgv9yrb86v15z1fhl4s3-pkg-config-wrapper-0.29.2-doc"
+            }
+          ],
+          "store_path": "/nix/store/ln3ag9li111lb1z3d5kx85lmbwl02jxl-pkg-config-wrapper-0.29.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8xrwhdy4xjigawram5dbny74770464yi-pkg-config-wrapper-0.29.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/6wqf1vc84w4s7j0yyhakhjchf7fbbk9a-pkg-config-wrapper-0.29.2-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/7f813rg7vj5ay0gvgwrjr7wf1j20j5rb-pkg-config-wrapper-0.29.2-doc"
+            }
+          ],
+          "store_path": "/nix/store/8xrwhdy4xjigawram5dbny74770464yi-pkg-config-wrapper-0.29.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8awl29877crxfik0kypxcw2fgsj278qc-pkg-config-wrapper-0.29.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/0gyljbb8s4yq7hscv3330skbz6rnxshn-pkg-config-wrapper-0.29.2-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/aynq77v8d0axk0x6v3asb3cbdsmvqyhn-pkg-config-wrapper-0.29.2-doc"
+            }
+          ],
+          "store_path": "/nix/store/8awl29877crxfik0kypxcw2fgsj278qc-pkg-config-wrapper-0.29.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rxz7i1sj19nrcmyk4sg49i2h1vfaazby-pkg-config-wrapper-0.29.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/z11lns38jrq1mb37cqlqwg19shgvnq1k-pkg-config-wrapper-0.29.2-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/aq64w9jjm6gmizlxh1a362jjcfwlzsz2-pkg-config-wrapper-0.29.2-doc"
+            }
+          ],
+          "store_path": "/nix/store/rxz7i1sj19nrcmyk4sg49i2h1vfaazby-pkg-config-wrapper-0.29.2"
+        }
+      }
+    },
     "puppet-lint@latest": {
       "last_modified": "2025-05-16T20:19:48Z",
       "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#puppet-lint",
