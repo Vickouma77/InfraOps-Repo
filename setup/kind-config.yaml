@@ -5,9 +5,9 @@ nodes:
   - role: control-plane
   - role: worker
     extraMounts:
-      - hostPath: /home/vick/InfraOps-Repo/kind-bind-mount-1
+      - hostPath: /home/vick/InfraOps-Repo/setup/kind-bind-mount-1
         containerPath: /some/path/in/container
   - role: worker
     extraMounts:
-      - hostPath: /home/vick/InfraOps-Repo/kind-bind-mount-2
+      - hostPath: /home/vick/InfraOps-Repo/setup/kind-bind-mount-2
         containerPath: /some/path/in/container
