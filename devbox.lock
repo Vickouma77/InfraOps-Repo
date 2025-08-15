@@ -149,6 +149,34 @@
         }
       }
     },
+    "helm@latest": {
+      "last_modified": "2025-07-28T17:09:23Z",
+      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#helm",
+      "source": "devbox-search",
+      "version": "0.9.0",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8fpvml2s91nxbykgap3jycfwngsyii3d-helm-0.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8fpvml2s91nxbykgap3jycfwngsyii3d-helm-0.9.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m9hwvnfv5x2xai34i9aymmxz7v2sbaln-helm-0.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m9hwvnfv5x2xai34i9aymmxz7v2sbaln-helm-0.9.0"
+        }
+      }
+    },
     "kind@latest": {
       "last_modified": "2025-05-16T20:19:48Z",
       "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#kind",

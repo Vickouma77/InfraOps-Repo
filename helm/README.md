@@ -9,7 +9,6 @@ It provides a templating mechanism to define, install, and upgrade even the most
 
 **Release** - is a specific instance of a chart running in a Kubernetes cluster. A chart can be installed multiple times, creating multiple releases.
 
-- NB: Helm uses a client-server architecture. The Helm client (helm) interacts with the Helm server (Tiller) to manage the lifecycle of applications running on Kubernetes.
 - Helm can now be defined as a tool for managing Kubernetes applications through the use of Helm charts.
 
 ## Components of a Helm Chart
