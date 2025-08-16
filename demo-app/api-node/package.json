@@ -2,6 +2,7 @@
   "name": "api-node",
   "version": "1.0.0",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
     "debug": "nodemon --inspect src/index.js",
