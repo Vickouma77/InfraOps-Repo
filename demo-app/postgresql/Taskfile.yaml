@@ -1,8 +1,8 @@
 version: "3"
 
 vars:
-  IMAGE_REPO: sidpalas/devops-directive-kubernetes-course-db-migrator
-  IMAGE_TAG: foobarbaz
+  IMAGE_REPO: vickouma/infra-ops-postgres
+  IMAGE_TAG: latest
 
 tasks:
   run-postgres:
