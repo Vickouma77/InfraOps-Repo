@@ -4,5 +4,5 @@ ko_build(
   './',
   deps=['.']
 )
-k8s_yaml('../../demo-app/api-golang/Deployment.yaml')
+k8s_yaml('../../deploying-demo-app/api-golang/Deployment.yaml')
 k8s_resource('api-golang', port_forwards=8000)

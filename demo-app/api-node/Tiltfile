@@ -2,5 +2,5 @@ docker_build(
   'vickouma/infra-ops-api-node', 
   './',
 )
-k8s_yaml('../../demo-app/api-node/Deployment.yaml')
+k8s_yaml('../../deploying-demo-app/api-node/Deployment.yaml')
 k8s_resource('api-node', port_forwards=3000)
