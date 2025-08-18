@@ -23,9 +23,9 @@ tasks:
     cmds:
       - |
         KO_DOCKER_REPO='{{.IMAGE_REPO}}' \
-          ko build \
+          ko build ./ \
           --bare \
-          --tags={{.IMAGE_TAG}} \ 
+          --tags={{.IMAGE_TAG}} \
           --platform=all
 
   build-container-image-multi-arch:
