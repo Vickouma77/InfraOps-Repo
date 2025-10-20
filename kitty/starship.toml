@@ -1,0 +1,36 @@
+# ── Enable Schema (for editor auto-completion) ───────────────
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# ── General Settings ──────────────────────────────────────────
+add_newline = true
+format = "$directory $character"
+
+# ── Prompt Character (End of Line Symbol) ─────────────────────
+[character]
+success_symbol = "❯"
+error_symbol = "✖"
+style_success = "bold green"
+style_error = "bold red"
+
+# ── Disable Unwanted Modules ──────────────────────────────────
+[package]
+disabled = true
+
+[gcloud]
+disabled = true
+
+# ── Directory Module (Improved Breadcrumb + Icons) ────────────
+[directory]
+style = "bold blue"
+read_only = "🔒 "
+home_symbol = "~"
+# Show breadcrumb path like ~/ezytutors > tutor-web-app
+format = "[$path]($style) "
+truncation_length = 0          # Show full path unless you prefer 2–3 last folders
+truncate_to_repo = false
+
+# Replace folder separators with prettier breadcrumb arrows/icons
+[directory.substitutions]
+"/" = " > "
+"~" = "~"  # You can also do "🏠 ~" if you want a home icon
+
